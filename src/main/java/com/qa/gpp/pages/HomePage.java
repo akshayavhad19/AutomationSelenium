@@ -18,6 +18,7 @@ public class HomePage {
     private By password=By.id("");
     private By loginBtn=By.linkText("");
 	private By logo = By.cssSelector("div[class='logo-holder'] a[aria-label='home page of [site:name]']");
+	
 	//Page constructor
 	public HomePage(WebDriver driver) {
 		this.driver=driver;

@@ -20,6 +20,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import com.qa.gpp.exception.FrameworkException;
 
 public class DriverFactory {
+	public static String highlight;
 	WebDriver driver;
 	public WebDriver initDriver(String browserName) {
 		System.out.println("The browser name is:" +browserName);
